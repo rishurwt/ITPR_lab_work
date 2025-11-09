@@ -18,9 +18,16 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        Factorial obj = new Factorial();
-        obj.input();
-        obj.FActorialofaNumber();
-
+        double a = 0.1;
+        double b = 0.2;
+        double c = 0.1+0.2;
+        if(c == 0.3) {
+            Factorial obj = new Factorial();
+            obj.input();
+            obj.FActorialofaNumber();
+        }
+        else{
+            System.out.println("Not equl");
+        }
     }
 }
