@@ -1,4 +1,4 @@
-package DAY7.Inheritance;
+// package DAY7.Inheritance;
 
 
  import java.util.Scanner; // importing Scanner class for user input
@@ -7,12 +7,13 @@ class Number
 {
     //member variable
     protected int num1,num2;
+       //Creating object of Scanner class
+        Scanner sc=new Scanner(System.in);
     //---------------------------------------------------------------------------------------
     //method for input of Numbers
     public void inputNumbers()
     {
-        //Creating object of Scanner class
-        Scanner sc=new Scanner(System.in);
+     
 
         System.out.print("Enter first number : ");
         num1 = sc.nextInt(); //reading user input
@@ -74,8 +75,7 @@ class NumericCalculation extends Number
     //method for performing above task by providing a menu to the user
     public void performOperation()
     {
-        //Creating object of Scanner class
-        Scanner sc=new Scanner(System.in);
+     
         int choice;
         do {
             // providing menu to the user
