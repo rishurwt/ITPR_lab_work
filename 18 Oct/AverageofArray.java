@@ -1,4 +1,4 @@
-package DAY4;
+// package 18 Oct;
 import java.util.Scanner;
    public class AverageofArray {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ import java.util.Scanner;
             }
             double avg = sum / 10.0;
             System.out.println("Average = " + avg);
-
+            sc.close();
 
 
     }

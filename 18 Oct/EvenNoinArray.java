@@ -1,4 +1,4 @@
-package DAY4;
+// package DAY4;
 import java.util.Scanner;
   public class EvenNoinArray {
         public static void main(String[] args) {
@@ -16,7 +16,7 @@ import java.util.Scanner;
                     System.out.print(arr[i] + " ");
                 }
             }
-
+            sc.close();
 
         }
     }

@@ -1,4 +1,4 @@
-package DAY4;
+// package 18 Oct;
 import java.util.Scanner;
 public class PositiveandNegativeCount {
         public static void main(String[] args) {
@@ -16,5 +16,6 @@ public class PositiveandNegativeCount {
             }
             System.out.println("Total Positive Numbers = " + pos);
             System.out.println("Total Negative Numbers = " + neg);
+            sc.close();
     }
 }

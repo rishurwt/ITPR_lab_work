@@ -1,4 +1,4 @@
-package DAY5;
+// package 19 Oct;
 import java.util.Scanner;
 public class TotalPositiveNumber {
     int[] arr = new int[10];
@@ -9,6 +9,7 @@ public class TotalPositiveNumber {
         for (int i = 0; i < 10; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
         private void CountingPositiveNumber(){
             for(int i = 0 ; i< 10 ; i++){
@@ -21,7 +22,7 @@ public class TotalPositiveNumber {
         TotalPositiveNumber obj = new TotalPositiveNumber();
         obj.input();
         obj.CountingPositiveNumber();
-
+        
     }
 
 }
